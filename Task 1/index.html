@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Credits Form</title>
+    <link rel="Icon" href="./Icon/indir.jpeg" />
+    <style>
+      div {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 align="center">Loan Application</h2>
+    <h2 align="center" style="background-color: mediumorchid">
+      Applicant Information:
+    </h2>
+    <form action align="center">
+      <div>
+        <label>First Name:</label>
+        <input placeholder="Add Your Name" type="text" />
+      </div>
+      <div>
+        <label>First Surname:</label>
+        <input placeholder="Add Your Surname" type="text" />
+      </div>
+      <div>
+        <label>Email:</label>
+        <input placeholder="Excamle: Sia@gmail.com" type="email" />
+      </div>
+      <div>
+        <label>Social Securty #</label>
+        <input
+          placeholder="Max 9 Figure   "
+          type="password    "
+          min="6"
+          max="9"
+        />
+      </div>
+      <div>
+        <label>Daytime Phone:</label>
+        <input placeholder="ex +994512222222" type="tel" min="6" max="15" />
+      </div>
+      <div>
+        <label>Evening Phone:</label>
+        <input placeholder="ex +994512222222" type="tel" min="6" max="15" />
+      </div>
+      <h2 style="background-color: mediumorchid">Loan Information:</h2>
+      <div>
+        <label>Loan Type</label>
+        <select>
+          <option>Automobile</option>
+          <option>House</option>
+          <option>Car</option>
+        </select>
+      </div>
+      <div>
+        <label>Loan Amount$:</label>
+        <select>
+          <option>1000-5000$</option>
+          <option>5000-10000$</option>
+          <option>10000-20000$</option>
+          <option>20000$+</option>
+        </select>
+      </div>
+      <div>
+        <label>Description:</label>
+        <textarea
+          placeholder="The reason for the loan"
+          cols="30"
+          rows="5"
+        ></textarea>
+      </div>
+      <label>Sumbit Application</label>
+      <button>Apply For Loan</button>
+    </form>
+  </body>
+</html>
